@@ -1,6 +1,6 @@
-import demoblaze_POM.services.utilities.blaze_driver as bu
-import demoblaze_POM.services.pages.blaze_cart_page as cp
-import demoblaze_POM.services.constructors.cart_blaze_locators as cl
+import services.utilities.blaze_driver as bu
+import services.pages.blaze_cart_page as cp
+import services.constructors.cart_blaze_locators as cl
 
 
 class Cart(bu.Drivers, cp.Cart):
