@@ -12,6 +12,7 @@ class Cart(bu.Drivers, cp.Cart):
         cp.Cart.cart_header_button_click(self)
         cp.Cart.find_product_in_cart(self)
         self.assertIsNotNone(bu.EC.visibility_of_element_located((*cl.CartLocators.product1_added_to_cart,)))
+        print('')
 
 
 
